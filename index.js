@@ -31,8 +31,4 @@ io.on("connection", (socket) => {
         })
         io.emit('msg', argum)
     });
-
-    socket.on("img", (arg) => {
-        io.emit('img', arg)
-    });
 });
